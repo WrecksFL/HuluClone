@@ -505,6 +505,7 @@ h4 {
 
     .sub-header {
         grid-template-columns: 1fr;
+        justify-content: center;
         text-align: center;
         gap: 20px;
     }
@@ -517,6 +518,20 @@ h4 {
     .sub-header > div:last-of-type {
         justify-self: center;
         align-self: center;
+    }
+
+    .sub-header > div:first-of-type {
+        justify-self: center;
+        align-self: flex-start;
+    }
+
+    .sub-header > div:nth-child(2) {
+        justify-self: center;
+        align-self: center;
+    }
+
+    .sub-header > div:last-of-type .sub-link {
+        text-align: center;
     }
 
     .text-xl {
