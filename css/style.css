@@ -508,6 +508,7 @@ h4 {
         justify-content: center;
         text-align: center;
         gap: 20px;
+        padding: 30px 30px;
     }
 
     .sub-header img {
@@ -522,7 +523,7 @@ h4 {
 
     .sub-header > div:first-of-type {
         justify-self: center;
-        align-self: flex-start;
+        align-self: center;
     }
 
     .sub-header > div:nth-child(2) {
